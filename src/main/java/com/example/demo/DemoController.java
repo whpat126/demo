@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * 类注释
+ * @author wanghh
  */
 @Controller
 @RequestMapping(value = "/")
@@ -17,6 +18,4 @@ public class DemoController {
         model.addAttribute("welcomeString", welcome);
         return "home";
     }
-
-
 }
