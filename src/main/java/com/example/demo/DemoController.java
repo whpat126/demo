@@ -15,7 +15,7 @@ public class DemoController {
     @RequestMapping({"/hello","/"})
     public String test(Model model) {
         String welcome = "你好！";
-        model.addAttribute("welcomeString", welcome);
+        model.addAttribute("welcomeString", welcome)
         return "home";
     }
 }
