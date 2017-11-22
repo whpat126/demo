@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * 测试
+ * 测试1
  * @author wanghh
  */
 @Entity
